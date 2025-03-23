@@ -1,1 +1,1 @@
-Logging lessons of the course Good, good Python C\C++ - training course from Sergey Balakirev
+Logging lessons of the course Good, good C\C++ - training course from Sergey Balakirev
