@@ -117,7 +117,9 @@
     "gleam": "gleam run -m $fileNameWithoutExt"
   },
   "files.associations": {
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "bitset": "c",
+    "algorithm": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
