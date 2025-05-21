@@ -2,13 +2,11 @@
 
 int main(void)
 {
-    long long var_ll = 0;
-    long double var_ld = 0.;
-    short sh = 0;
+    float a, b, c, d, f, g, h, i, j, k;
 
-    scanf("%lld,%Lf,%hd", &var_ll, &var_ld, &sh);
-    
-    printf("%lld %hd", var_ll, sh);
+    scanf("%f; %f; %f; %f; %f; %f; %f; %f; %f; %f", &a, &b, &c, &d, &f, &g, &h, &i, &j, &k);
+
+    printf("%.1f %.1f %.1f %.1f %.1f", g, h, i, j, k);
 
     return 0;
 }
