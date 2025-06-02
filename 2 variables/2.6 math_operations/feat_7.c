@@ -2,13 +2,14 @@
 
 int main(void)
 {
-    int a1; // первый член прогрессии
-    int a50; // 50-й член прогрессии
+    int a1;   
+    int a50;  
 
     scanf("%d, %d", &a1, &a50);
 
-    // здесь продолжайте программу
+    int res = (a1 + a50) * 25;
 
-    #NEXT
+    printf("%d\n", res);
+
     return 0;
 }
