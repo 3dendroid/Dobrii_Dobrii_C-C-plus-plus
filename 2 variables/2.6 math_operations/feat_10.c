@@ -2,12 +2,12 @@
 
 int main(void)
 {
-    int a = 0;
+    float R = 0;
 
-    scanf("%d", &a);
+    scanf("%f", &R);
 
     // здесь продолжайте программу
-    float res = (1.732 * a) / 6;
+    double res = (2 * 3.1415 * R);
     printf("%.3f", res);
     return 0;
 }
