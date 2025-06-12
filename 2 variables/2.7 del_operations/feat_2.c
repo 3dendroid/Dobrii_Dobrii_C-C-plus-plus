@@ -6,6 +6,8 @@ int main(void)
     scanf("%d", &angle);
 
     // здесь продолжайте программу
-    // NEXT
+    int res = angle % 360;
+
+    printf("%d", res);
     return 0;
 }
