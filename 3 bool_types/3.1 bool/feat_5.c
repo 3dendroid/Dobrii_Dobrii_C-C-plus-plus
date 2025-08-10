@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    int a;
+    float a;
 
-    scanf("%d", &a);
+    scanf("%f", &a);
 
-    printf("%d", 100 * (a % 5 == 0));
+    printf("%d", ((int)a % 5 == 0));
 
     return 0;
 }

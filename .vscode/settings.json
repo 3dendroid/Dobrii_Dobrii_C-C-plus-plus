@@ -119,7 +119,9 @@
   "files.associations": {
     "stdio.h": "c",
     "bitset": "c",
-    "algorithm": "c"
+    "algorithm": "c",
+    "stdbool.h": "c",
+    "random": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
