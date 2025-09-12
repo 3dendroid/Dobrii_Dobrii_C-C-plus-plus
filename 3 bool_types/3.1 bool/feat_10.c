@@ -6,7 +6,7 @@ int main(void)
     
     scanf("%f %f", &x, &y);
 
-    printf("%d", (x >= -5 && x <= 10 && y >= 0 && y <= 7));
+    printf("%d", !(x >= -5 && x <= 10 && y >= 0 && y <= 7));
 
     return 0;
 }
