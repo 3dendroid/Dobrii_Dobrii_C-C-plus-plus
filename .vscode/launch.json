@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/SUPERDEN/Documents/Projects/Dobrii_dobrii_C-C-/Dobrii_Dobrii_C-C-plus-plus/2 variables/2.2 Assignment",
-      "program": "c:/Users/SUPERDEN/Documents/Projects/Dobrii_dobrii_C-C-/Dobrii_Dobrii_C-C-plus-plus/2 variables/2.2 Assignment/build/Debug/outDebug",
+      "cwd": "c:/Users/SUPERDEN/Documents/projects/Dobrii_Dobrii_C-C-plus-plus/3 bool_types/3.2 if_operator",
+      "program": "c:/Users/SUPERDEN/Documents/projects/Dobrii_Dobrii_C-C-plus-plus/3 bool_types/3.2 if_operator/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
