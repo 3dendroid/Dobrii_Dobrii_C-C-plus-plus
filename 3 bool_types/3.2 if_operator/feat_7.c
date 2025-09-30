@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main(void)
@@ -12,3 +13,6 @@ int main(void)
 
     return 0;
 }
+=======
+# NEXT
+>>>>>>> ae0ff231dacbce62c9b3fd53ffb547d0ecafe7f4
