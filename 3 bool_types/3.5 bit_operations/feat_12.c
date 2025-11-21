@@ -2,10 +2,10 @@
 
 int main(void)
 {
-    unsigned char flags, mask;
-    scanf("%hhu %hhu", &flags, &mask);
+    unsigned int flags, mask;
+    scanf("%u %u", &flags, &mask);
 
-    if ((flags & mask) == mask)
+    if (flags & mask)
         printf("yes");
     else
         printf("no");
