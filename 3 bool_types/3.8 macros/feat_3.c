@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // здесь объявляйте макро-функцию
+#define GET_MAX(a, b) ((a) > (b) ? (a) : (b))
 
 int main(void)
 {
@@ -10,8 +11,10 @@ int main(void)
         return 0;
     }
 
-    // здесь продолжайте программу
+    double res = GET_MAX(val_1 + 1, val_2 - 1) / (val_1 + val_2);
 
-    __ASSERT_TESTS__ // макроопределение для тестирования (не убирать и должно идти непосредственно перед return 0)
+    printf("%.2f", res);
+
+    __ASSERT_TESTS__
     return 0;
 }
