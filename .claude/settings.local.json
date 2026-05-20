@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc -Wall -Wextra feat_5.c -o feat_5_test.exe)",
+      "Bash(./feat_5_test.exe)",
+      "Bash(rm feat_5_test.exe)"
+    ]
+  }
+}

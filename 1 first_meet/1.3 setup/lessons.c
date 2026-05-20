@@ -1,6 +1,6 @@
 /*My first programm*/
-//My first programm
-# include <stdio.h>
+// My first programm
+#include <stdio.h>
 
 int main(void)
 {
