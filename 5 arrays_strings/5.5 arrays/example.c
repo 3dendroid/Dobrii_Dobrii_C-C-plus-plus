@@ -1,1 +1,21 @@
-# NEXT
+#include <stdio.h>
+
+int main(void)
+{
+    float func_1[100] = {2.4, 3.5, 4.6};
+    float func_2[100] = {0.0};
+
+    int size_1 = sizeof(func_1) / sizeof(func_1[0]);
+    int size_2 = sizeof(func_2) / sizeof(func_2[0]);
+    int size = (size_1 < size_2) ? size_1 : size_2;
+
+    for (int i = 0; i < size; i++)
+    {
+        func_2[i] = func_1[i];
+    }
+
+    for (int i = 0; i < size; i++)
+        printf("%.2f ", func_2[i]);
+
+    return 0;
+}
