@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <string.h>
 
@@ -23,3 +24,6 @@ int main()
 
     return 0;
 }
+=======
+# NEXT
+>>>>>>> 603c409ff4ec06f7da2313c85da43e92880d6b99
